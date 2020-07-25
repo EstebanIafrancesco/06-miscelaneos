@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
     <p [style.fontSize.px]="tamanio">
       Hola amigos... ésta es una etiqueta y como les queda el ojo!
     </p>
-
     <button class="btn btn-primary" (click)="tamanio = tamanio + 5">
       <i class="fa fa-plus"></i>
     </button>
